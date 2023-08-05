@@ -17,11 +17,10 @@
 
             <!-- Script Konten Upload Gambar Tips Kerja -->
             <a href="">
-                <button type="button" class="btn btn-secondary pl-3 pr-3 mb-3"><i class="fa-solid fa-image mr-3"></i>Tambahkan Gambar</button>
-                <input type="file" name="gambarTipsKerja" id="gambarTipsKerja" accept="image/*" class="form-control @error('file') is-invalid @enderror">
-                @error('gambarTipsKerja')
-                <div class="invalid-feedback">{{ $message }}</div>
-                @enderror
+                <label for="fileInput" class="btn btn-secondary pl-3 pr-3">
+                <i class="fa-solid fa-image mr-3"></i>Tambahkan Gambar
+                <input type="file" name="gambarTipsKerja" id="fileInput" accept="image/*" class="d-none">
+                </label>
             </a>
 
             <!-- Script Konten Tips Kerja -->
