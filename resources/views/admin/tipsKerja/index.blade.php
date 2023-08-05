@@ -61,7 +61,7 @@
                         <th scope="col ">#</th>
                         <th scope="col " class="text-left">Judul</th>
                         <th scope="col " >Penulis</th>
-                        <th scope="col " ><i class="fa-solid fa-comment"></i></th>
+                        <th scope="col " ></th>
                         <th scope="col " >Tanggal</th>
                         </tr>
                     </thead>
@@ -74,7 +74,7 @@
                             </th>
                             <td class="text-left"><a href="editTipsKerja">Tips Bekerja Yang Tidak Membuatmu Stress....</a></td>
                             <td >Steve</td>
-                            <td >-</td>
+                            <td ></td>
                             <td >Telah Terbit 2023/05/22</td>
                         </tr>
                     </tbody>
