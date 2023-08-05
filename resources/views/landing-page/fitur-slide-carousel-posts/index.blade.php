@@ -9,7 +9,7 @@
                       <div class="slider-card">
                           <div class="wadah">
                               <div class="container emblem-rekomendasi">
-                                  Rekomendasi
+                                  Rekomendasii
                               </div>
                               <h5>Videographer</h5>
                               <div class="d-flex justify-content-center align-items-center mb-4 img-logo">
