@@ -1,0 +1,86 @@
+/* .font-underline {
+    border-bottom: 2px solid rgba(242, 100, 25, 1);
+} */
+
+#navbarNavAltMarkup {
+    margin-left: 300px;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+/* #navbar a {
+    color: rgba(242, 100, 25, 1);
+} */
+
+
+/* #navbar a:hover {
+    color: black;
+    text-decoration: underline;
+    transition: 3s;
+} */
+
+#navbar a{
+    display: inline-block;
+    position: relative;
+    color: #FF9837;
+}
+  
+  #navbar a:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #FF9837;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+
+  #navbar a:hover {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+    color: black;
+  }
+
+  #navbar a:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  
+
+.button-perusahaan hr {
+  margin: 0px;
+  width: 80%;
+  margin: auto;
+  color: #FF9837;
+}
+
+.dropdown .notifikasi hr {
+  margin: 0px;
+  /* width: 50%; */
+  color: black ;
+  margin-bottom: 20px;
+}
+
+
+.dropdown .notifikasi{
+    /* border: 1px solid black; */
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    height: 300px;
+    overflow: auto;
+    width: 250px;
+}
+
+.dropdown .notifikasi {
+    font-size: 14px;
+}
+
+.dropdown .notifikasi img{
+    width: 30px;
+}

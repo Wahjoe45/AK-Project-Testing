@@ -1,0 +1,88 @@
+    .benefit {
+        background-color: #F6AE2D;
+        height: max-content;
+        padding: 0;
+    }
+    
+    .cta {
+        padding: 40px 0;
+    }
+    
+    .cta .cta-block {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        border-radius: 4px;
+        overflow: hidden;
+    }
+    
+    @media (max-width: 767px) {
+        .cta .cta-block {
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column;
+        }
+    }
+    
+    .cta .cta-block .working-time {
+        background: #6fcbd1;
+    }
+    
+    .cta .cta-block .working-time ul {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .cta .cta-block .working-time ul li {
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+    
+    .cta .cta-block .working-time ul li span {
+        float: right;
+    }
+    
+    .cta .cta-block .working-time ul li:not(:last-child) {
+        border-bottom: 1px solid #fff;
+    }
+    
+    .cta .cta-block .item {
+        padding: 20px 30px;
+        -ms-flex-preferred-size: 33.33%;
+        flex-basis: 33.33%;
+    }
+    
+    .cta .cta-block .item i,
+    .cta .cta-block .item h2,
+    .cta .cta-block .item p {
+        transition: all .2s ease;
+        color: #fff;
+    }
+    
+    .cta .cta-block .item i {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    
+    .cta .cta-block .item h2 {
+        font-weight: normal;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+    
+    .cta .cta-block .item p {
+        font-size: 16px;
+        line-height: 19px;
+    }
+    
+    .working-time-left {
+        border-radius: 20px 0px 0px 20px;
+    }
+    
+    .working-time-right {
+        border-radius: 0px 20px 20px 0px;
+    }

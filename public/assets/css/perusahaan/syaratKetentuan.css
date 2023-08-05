@@ -1,0 +1,19 @@
+.title-main {
+    margin-top: 50px;
+    margin-left: 90px;
+    color: white;
+}
+
+.child-main {
+    margin-left: 90px;
+    color: white;
+}
+
+.jumbotron {
+    height: 450px;
+}
+
+.container-content {
+    width: 80%;
+    text-align: justify;
+}

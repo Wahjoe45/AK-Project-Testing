@@ -1,0 +1,32 @@
+.title-main {
+    margin-top: 50px;
+    margin-left: 90px;
+    color: white;
+}
+
+.child-main {
+    margin-left: 90px;
+    color: white;
+}
+
+.jumbotron {
+    height: 450px;
+}
+
+.konten {
+    /* border: 1px solid black; */
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+.konten img {
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+
+/* .konten .col-lg-3 {
+    border : 1px solid black;
+    padding: 0;
+} */

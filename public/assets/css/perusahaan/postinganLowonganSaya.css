@@ -1,0 +1,153 @@
+.navbarSk {
+    display: none;
+}
+
+.jumbotron {
+    display: none;
+}
+
+#button-back a{
+    color: rgba(242, 100, 25, 1);
+    font-weight: 500;
+    margin-top: 100px;
+}
+
+.wadah-semua-postingan-lowongan{
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* ini berguna untuk ketika select option/ dropdown di klik tidak ada border / outline nya */
+*:focus {
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.row .col-lg-4.col-sm-6 {
+    margin-bottom: 30px;
+}
+
+
+
+.wadah-semua-postingan-lowongan .wadah {
+    background-color: rgba(255, 255, 255, 1);
+    padding: 10px; 
+    border-radius: 10px;
+    color: black;
+    box-shadow: 0px 2px 4px 3px rgba(0, 0, 0, 0.20);
+    /* margin-top: 30px; */
+    border: 1px solid rgba(197, 197, 197, 1);
+}
+
+.wadah-semua-postingan-lowongan .wadah h5{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.wadah-semua-postingan-lowongan .wadah img{
+    width: 75px;
+    /* width: 40%; */
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+    /* margin-bottom: 20px; */ 
+}
+
+.wadah-semua-postingan-lowongan .konten-deskripsi {
+    font-size: 15px;
+    margin-top: 40px;
+}
+
+.wadah-semua-postingan-lowongan .konten-deskripsi span{
+    font-size: 20px;
+}
+
+.wadah-semua-postingan-lowongan  .emblem-jenis-lowongan button{
+    background-color: #FFF7E4;
+    color: #FF9837;
+    border-radius: 5px;
+    margin-right: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-bottom: 5px;
+}
+
+.blur-bg {
+    /* border: 1px solid red;  */
+    /* background-color: rgba(128, 128, 128, 0.041);  */
+    border-radius: 10px;
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0;
+    height: 100%; 
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.4);
+    -webkit-backdrop-filter: blur(1px);
+    backdrop-filter: blur(5px);
+    display: none;
+}
+
+.button-show {
+    margin: auto;
+    margin-top: 150px;
+    /* border: 1px solid red; */
+    width: max-content;
+}
+
+.button-show button{
+    display: block;
+    margin-bottom: 20px;
+    border-radius: 7px;
+}
+
+
+/* div sebagai buat nambah postingan lowongan baru */
+
+.add-lowongan {
+    /* background-color: #FFF7E4; */
+    /* padding: 50%; */
+    width: 150px;
+    /* height: 150px; */
+    padding: 25px;
+    border-radius: 10px;
+    
+}
+
+
+
+.add-lowongan div {
+    background-color: #FF9837;
+    /* padding: 50%; */
+    /* width: 100px;
+    height: 100px; */
+    margin: auto;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.add-lowongan div i {
+
+    line-height: 50px
+}
+
+
+.doFadeIn {
+    -webkit-animation:fadeInSlide forwards ease-in 150ms;
+    animation:fadeInSlide forwards ease-in 150ms;
+}
+.doFadeOut {
+    -webkit-animation:fadeOutSlideDown forwards ease-out 150ms;
+    animation:fadeOutSlideDown forwards ease-out 150ms;
+}
+
+@keyframes fadeInSlide
+{
+     0% { opactity:0; transform: translateX(-100px); }
+     100% { opactity:1; transform: translateX(0); }
+} 
+

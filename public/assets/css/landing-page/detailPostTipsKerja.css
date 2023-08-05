@@ -1,0 +1,35 @@
+.jumbotron {
+    display: none;
+}
+
+.konten {
+    /* border: 1px solid black;  */
+    width: 80%;
+    display: block;
+    margin: auto;
+    box-sizing: border-box;
+    margin-top: 30px;
+}
+
+.konten .button-back a{
+    color: rgba(242, 100, 25, 1);
+    font-weight: 500;
+}
+
+.konten .title-post {
+    text-align: center;
+}
+
+.icon-bagikan img {
+    width: 3%;
+}
+
+.konten .main-image {
+    width: 100%;
+    display: block;
+    margin: auto;
+} 
+
+.konten-main img {
+    width: 100%;
+}

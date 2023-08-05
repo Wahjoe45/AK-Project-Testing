@@ -1,0 +1,11 @@
+.line-hr {
+    height: 2px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.622);
+}
+
+.line-hr-1 {
+    height: 1px;
+    width: 100%;
+    background-color: rgb(152, 152, 152);
+}

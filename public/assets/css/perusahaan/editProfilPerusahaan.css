@@ -1,0 +1,60 @@
+.navbarSk {
+    display: none;
+}
+
+.jumbotron {
+    display: none;
+}
+
+.edit-title-perusahaan input {
+    font-size: 20px;
+    font-weight: 650;
+}
+
+.deskripsi {
+    background-color: #FFF0E2;
+    height: 200px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.detail-deskripsi .side-right-deskripsi {
+    border: 2px solid #FF9837;
+    border-radius: 10px;
+    padding: 10%;
+}
+
+.detail-deskripsi .side-right-deskripsi input{
+    color: blue;
+}
+
+
+.add-lowongan {
+    background-color: #FFF7E4;
+    /* padding: 50%; */
+    width: 150px;
+    /* height: 150px; */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.add-lowongan div {
+    background-color: #FF9837;
+    /* padding: 50%; */
+    /* width: 100px;
+    height: 100px; */
+    margin: auto;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.add-lowongan div i {
+
+    line-height: 50px
+}
+
+
+

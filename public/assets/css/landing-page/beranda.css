@@ -1,0 +1,229 @@
+
+/* .font-underline {
+    text-decoration: underline solid rgba(242, 100, 25, 1) 3px;
+}
+
+#navbarNavAltMarkup {
+    margin-left: 300px;
+}
+
+.logo {
+    margin-left: 30px;
+} */
+
+#button-back a{
+    color: rgba(242, 100, 25, 1);
+    font-weight: 500;
+    display: none;
+    margin-top: 100px;
+}
+
+.title-main {
+    margin-top: 50px;
+    margin-left: 90px;
+    color: white;   
+}
+
+.child-main {
+    margin-left: 90px;
+    color: white;
+}
+
+.jumbotron {
+    height: 450px;
+}
+
+.content {
+    /* border: 2px solid black; */
+    width: 75%;
+}
+
+.menu-main {
+    /* height: 200px; */
+    width: 70%;
+    border: 1px solid rgba(197, 197, 197, 1);
+    background-color: white;
+    border-radius: 30px;
+    position: absolute;
+    display: block;
+    top: 470px;
+    left: 15%;
+    /* padding: 30px; */
+}
+
+.menu-main .row .logo-main {
+    padding: 30px;
+}
+
+.menu-main .row .logo-main .wadah{
+    /* height: 50px; */
+    background-color: rgba(233, 233, 233, 1);
+    padding: 10px;
+    border-radius: 5px;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+*:focus {
+    box-shadow: none !important;
+}
+
+.button-search {
+    border-radius: 100px;
+    margin: auto;
+    display: block;
+    color: white;
+    width: 110px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+
+
+.rekomendasi .wadah {
+    background-color: rgba(255, 255, 255, 1);
+    padding: 10px; 
+    border-radius: 10px;
+    color: black;
+    /* box-shadow: 0px 8px 4px 3px rgba(0, 0, 0, 0.25); */
+    /* margin-top: 30px; */
+    /* border: 1px solid rgba(197, 197, 197, 1); */
+}
+
+.rekomendasi .wadah h5{
+    text-align: center;
+}
+
+
+
+.rekomendasi .wadah img{
+    /* width: 75px; */
+    /* width: 40%; */
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.rekomendasi .emblem-rekomendasi {
+    background-color: rgba(246, 174, 45, 1);
+    margin-right: 0;
+    width: 120px;
+    position: relative;
+    right: -10px;
+    top: -10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: black;
+}
+
+
+.konten-deskripsi hr {
+   margin-top: 2px;
+   background-color: black;
+}
+
+/* .lowongan-terbaru .post {
+    border: 1px solid black;
+} */
+
+.lowongan-terbaru .post {
+    box-shadow: 0px 4px 4px 3px rgba(0, 0, 0, 0.25);
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+
+
+.gif-loading {
+    width: 50px;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}
+
+footer {
+    margin-top: 50px;
+    height: 300px;
+    background-color: rgba(242, 100, 25, 1);
+}
+
+footer img {
+    display: block;
+    margin: auto;
+    width: 300px;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+}
+
+.copyright {
+    margin-top: 50px;
+}
+
+.social-media {
+    text-align: center;
+}
+
+footer ul li {
+    display: inline-block;
+    margin: 10px;
+}
+footer .social-media img {
+    width: 25px;
+    
+}
+
+@media screen and (max-width: 700px) {
+    #post-lowongan-terbaru h4, #post-lowongan-terbaru img{
+        text-align: center;
+        margin: auto;
+        display: block;
+    }
+
+    /* #previous, #next {
+        display: none;
+    } */
+}
+
+#title-rekomendasi {
+    height: 100px;
+}
+
+@media screen and (max-width: 658px) {
+    #title-rekomendasi{
+        height: 250px;
+    }
+}
+
+@media screen and (min-width: 659px) and (max-width: 679px) {
+    #title-rekomendasi{
+        height: 250px;
+    }
+}
+
+
+@media screen and (min-width: 680px) and (max-width: 990px){
+    #title-rekomendasi{
+        height: 250px;
+    }
+}
+
+@media screen and (min-width: 991px) {
+    #title-rekomendasi{
+        height: 100px;
+    }
+}
+
+@media screen and (min-width: 991px) {
+    #title-rekomendasi{
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 815px) {
+    #button-back {
+        margin-top: 100px;
+    }
+}

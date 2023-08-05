@@ -1,0 +1,39 @@
+.form-box{	
+	text-align: center;
+
+}
+
+.button-box {
+
+	text-align: center;
+	margin: 10px auto;
+	position: relative;
+	border-radius: 30px;	
+	background: #ffffff
+	
+}
+
+
+
+.toggle-btn {
+	width: 80PX;
+	padding: 8px 8px;
+	cursor: pointer;
+	background: transparent;
+	border: 0;
+	outline: none;
+	position: relative;
+	text-align: center;
+	font-size: 15px;
+}
+
+#btn {
+	left: 0;
+	top: 0;
+	position: absolute;
+	width: 90px;
+	height: 100%;
+	background: #e67e22;
+	border-radius: 30px;
+	transition: .5s;
+}

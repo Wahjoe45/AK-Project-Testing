@@ -1,0 +1,43 @@
+/* footer */
+footer {
+    margin-top: 50px;
+    height: max-content;
+    background-color: #F79C4B;
+    padding-bottom: 5px;
+}
+
+footer img {
+    width: 200px;
+}
+
+footer p {
+    color: white;
+}
+
+
+
+.social-media {
+    text-align: center;
+}
+
+footer ul li {
+    display: inline-block;
+    margin: 10px;
+}
+footer .social-media img {
+    width: 25px;
+}
+
+span a {
+    color: white;
+}
+
+.footer-title {
+    display: flex;
+}
+
+@media screen and (max-width: 650px) {
+    .footer-title {
+        display: block;
+    }
+}

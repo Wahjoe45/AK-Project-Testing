@@ -1,0 +1,35 @@
+.navbarSk {
+    display: none;
+}
+
+.jumbotron {
+    display: none;
+}
+
+.list-alamat {
+    height: max-content;
+    border: 1px solid #B1B1B1;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.list-alamat .card-alamat {
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 20px;
+    padding-top: 30px;
+    padding-bottom: 10;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.form-dropdown, .form-input {
+    display: flex;
+}
+
+@media screen and (max-width: 660px) {
+    .form-dropdown, .form-input {
+        display: block;
+    }
+}
+

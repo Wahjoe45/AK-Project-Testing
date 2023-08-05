@@ -1,0 +1,99 @@
+.navbarSk {
+    display: none;
+}
+
+.jumbotron {
+    display: none;
+}
+
+#button-back a{
+    color: rgba(242, 100, 25, 1);
+    font-weight: 500;
+    margin-top: 100px;
+}
+
+.wadah-detail-postingan{
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* ini berguna untuk ketika select option/ dropdown di klik tidak ada border / outline nya */
+*:focus {
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.row .col-lg-4.col-sm-6 {
+    margin-bottom: 30px;
+}
+
+
+
+.wadah-detail-postingan .wadah {
+    background-color: rgba(255, 255, 255, 1);
+    padding: 10px; 
+    border-radius: 10px;
+    color: black;
+    box-shadow: 0px 2px 4px 3px rgba(0, 0, 0, 0.20);
+    /* margin-top: 30px; */
+    border: 1px solid rgba(197, 197, 197, 1);
+}
+
+.wadah-detail-postingan .wadah h5{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.wadah-detail-postingan .wadah img{
+    width: 75px;
+    /* width: 40%; */
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+    /* margin-bottom: 20px; */ 
+}
+
+.wadah-detail-postingan .konten-deskripsi {
+    font-size: 15px;
+    margin-top: 40px;
+}
+
+.wadah-detail-postingan .konten-deskripsi span{
+    font-size: 20px;
+}
+
+.wadah-detail-postingan .emblem-jenis-lowongan button{
+    background-color: #FFF7E4;
+    color: #FF9837;
+    border-radius: 5px;
+    margin-right: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-bottom: 5px;
+}
+
+.wadah-detail-postingan .deskripsi-detail-lowongan {
+    padding: 20px;
+    overflow-x: auto;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+
+
+.doFadeIn {
+    -webkit-animation:fadeInSlide forwards ease-in 150ms;
+    animation:fadeInSlide forwards ease-in 150ms;
+}
+.doFadeOut {
+    -webkit-animation:fadeOutSlideDown forwards ease-out 150ms;
+    animation:fadeOutSlideDown forwards ease-out 150ms;
+}
+
+@keyframes fadeInSlide
+{
+     0% { opactity:0; transform: translateX(-100px); }
+     100% { opactity:1; transform: translateX(0); }
+} 
+

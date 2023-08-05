@@ -1,0 +1,52 @@
+.font-underline {
+    border-bottom: 2px solid rgba(242, 100, 25, 1);
+}
+
+#navbarNavAltMarkup {
+    margin-left: 300px;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+#navbar a {
+    color: rgba(242, 100, 25, 1);
+}
+
+/* #navbar a:hover {
+    color: black;
+    text-decoration: underline;
+    transition: 3s;
+} */
+
+#navbar a{
+    display: inline-block;
+    position: relative;
+    color: rgba(242, 100, 25, 1);
+}
+  
+  #navbar a:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(242, 100, 25, 1);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+
+  #navbar a:hover {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+    color: #272727;
+  }
+
+  #navbar a:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  

@@ -1,0 +1,60 @@
+.navbarSk {
+    display: none;
+}
+
+.jumbotron {
+    display: none;
+}
+
+#button-back a{
+    color: rgba(242, 100, 25, 1);
+    font-weight: 500;
+    margin-top: 100px;
+}
+
+.wadah-list-orang-lamar{
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 20px;
+    overflow-x: auto;
+}
+
+/* ini berguna untuk ketika select option/ dropdown di klik tidak ada border / outline nya */
+*:focus {
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.btn-cari-kandidat {
+    background-color: rgba(255, 152, 55, 1); 
+    color: white; 
+    font-weight: 500;
+    border-radius: 20px;
+}
+
+
+.wadah-list-orang-lamar .wadah {
+    background-color: rgba(255, 255, 255, 1);
+    padding: 10px; 
+    border-radius: 10px;
+    color: black;
+    box-shadow: 0px 2px 4px 3px rgba(0, 0, 0, 0.20);
+    /* margin-top: 30px; */
+    border: 1px solid rgba(197, 197, 197, 1);
+}
+
+.doFadeIn {
+    -webkit-animation:fadeInSlide forwards ease-in 150ms;
+    animation:fadeInSlide forwards ease-in 150ms;
+}
+.doFadeOut {
+    -webkit-animation:fadeOutSlideDown forwards ease-out 150ms;
+    animation:fadeOutSlideDown forwards ease-out 150ms;
+}
+
+@keyframes fadeInSlide
+{
+     0% { opactity:0; transform: translateX(-100px); }
+     100% { opactity:1; transform: translateX(0); }
+} 
+

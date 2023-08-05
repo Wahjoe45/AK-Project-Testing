@@ -1,0 +1,127 @@
+    .bg-lg-orange {
+        background: linear-gradient(49deg, #F13309 0%, #F90 100%);
+    }
+    
+    .text-lg-orange {
+        background: linear-gradient(241deg, #F90 0%, #F13309 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .text-shadow {
+        text-shadow: 0px 12px 20px 0px rgba(0, 0, 0, 0.50);
+    }
+    
+    .text-right {
+        text-align: right;
+    }
+    
+    .btn-lg-orange {
+        color: #fff;
+        background: linear-gradient(241deg, #F90 0%, #F13309 100%);
+        border-color: linear-gradient(241deg, #F90 0%, #F13309 100%);
+        box-shadow: 0 0.125rem 0.25rem 0 rgba(0, 0, 0, 0.4);
+    }
+    
+    .btn-lg-orange:hover {
+        color: #fff;
+        background-color: linear-gradient(241deg, #F13309 0%, #F90 100%);
+        border-color: linear-gradient(241deg, #F13309 0%, #F90 100%);
+        transform: translateY(-1px);
+    }
+    
+    .btn-check:focus+.btn-lg-orange,
+    .btn-lg-orange:focus,
+    .btn-lg-orange.focus {
+        color: #fff;
+        background-color: linear-gradient(241deg, #F13309 0%, #F90 100%);
+        border-color: linear-gradient(241deg, #F13309 0%, #F90 100%);
+        transform: translateY(0);
+        box-shadow: none;
+    }
+    
+    .btn-lg-orange.disabled,
+    .btn-lg-orange:disabled {
+        box-shadow: none;
+    }
+    
+    .btn-outline-lg-orange {
+        color: #F13309;
+        border-color: #F13309;
+        background: transparent;
+    }
+    
+    .btn-outline-lg-orange:hover {
+        color: linear-gradient(241deg, #F13309 0%, #F90 100%);
+        background-color: linear-gradient(241deg, #F13309 0%, #F90 100%);
+        border-color: linear-gradient(241deg, #F13309 0%, #F90 100%);
+        box-shadow: 0 0.125rem 0.25rem 0 rgba(0, 0, 0, 0.4);
+        transform: translateY(-1px);
+    }
+    
+    .btn-check:focus+.btn-outline-lg-orange,
+    .btn-outline-lg-orange:focus {
+        color: #F13309;
+        background-color: linear-gradient(241deg, #F13309 0%, #F90 100%);
+        border-color: linear-gradient(241deg, #F13309 0%, #F90 100%);
+        box-shadow: none;
+        transform: translateY(0);
+    }
+    
+    .btn-check:checked+.btn-outline-lg-orange,
+    .btn-check:active+.btn-outline-lg-orange,
+    .btn-outline-lg-orange:active,
+    .btn-outline-lg-orange.active,
+    .btn-outline-lg-orange.dropdown-toggle.show {
+        color: #F13309;
+        background-color: linear-gradient(241deg, #F13309 0%, #F90 100%);
+        border-color: linear-gradient(241deg, #F13309 0%, #F90 100%);
+    }
+    
+    .btn-check:checked+.btn-outline-lg-orange:focus,
+    .btn-check:active+.btn-outline-lg-orange:focus,
+    .btn-outline-lg-orange:active:focus,
+    .btn-outline-lg-orange.active:focus,
+    .btn-outline-lg-orange.dropdown-toggle.show:focus {
+        box-shadow: none;
+    }
+    
+    .btn-outline-lg-orange.disabled,
+    .btn-outline-lg-orange:disabled {
+        box-shadow: none;
+    }
+    
+    .btn-outline-lg-orange .badge {
+        background-color: linear-gradient(241deg, #F13309 0%, #F90 100%);
+        border-color: linear-gradient(241deg, #F13309 0%, #F90 100%);
+        color: #F13309;
+    }
+    
+    .btn-outline-lg-orange:hover .badge,
+    .btn-outline-lg-orange:focus:hover .badge,
+    .btn-outline-lg-orange:active .badge,
+    .btn-outline-lg-orange.active .badge,
+    .show>.btn-outline-lg-orange.dropdown-toggle .badge {
+        background-color: linear-gradient(241deg, #F13309 0%, #F90 100%);
+        border-color: linear-gradient(241deg, #F13309 0%, #F90 100%);
+        color: #F13309;
+    }
+    
+    .form-control-orange {
+        display: block;
+        width: 100%;
+        padding: 0.4375rem 0.875rem;
+        font-size: 0.9375rem;
+        font-weight: 400;
+        line-height: 1.53;
+        color: #697a8d;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #F13309;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        border-radius: 0.375rem;
+        transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    }

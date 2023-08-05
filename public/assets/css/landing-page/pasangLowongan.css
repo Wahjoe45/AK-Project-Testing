@@ -1,0 +1,125 @@
+body {
+    /* margin-top: 20px; */
+    color: #bcd0f7;
+    background: #ffffff;
+    position: relative;
+    /* height: 100%; */
+}
+
+.title-main {
+    margin-top: 50px;
+    margin-left: 90px;
+    color: white;   
+}
+
+.child-main {
+    margin-left: 90px;
+    color: white;
+}
+
+.jumbotron {
+    height: 450px;
+    margin: 0px;
+}
+
+.langkah-lowongan li{
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.langkah-lowongan li i{
+    margin-left: -23px;
+}
+
+
+
+
+.pricing-plan {
+    margin: 0 0 1rem 0;
+    width: 100%;
+    position: relative;
+    background: #ffffff;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    border-radius: 24px;
+    box-shadow: 0px 15px 20px 3px rgba(0, 0, 0, 0.25);
+}
+
+.pricing-plan .pricing-header {
+    padding: 0;
+    margin-bottom: 1rem;
+    text-align: center;
+    background: linear-gradient(27deg, #FFA70E 0%, rgba(255, 167, 14, 0.00) 100%);
+    -webkit-border-radius: 24px 24px 0px 0px;
+    -moz-border-radius: 24px 24px 0px 0px;
+    border-radius: 24px 24px 0px 0px;
+}
+
+.pricing-plan .pricing-header .pricing-title {
+    font-size: 3rem;
+    color: #ffffff;
+    padding: 1rem 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 0;
+    text-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+.pricing-plan .pricing-header .pricing-cost {
+    color: #ffffff;
+    padding: 1rem 0;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-shadow: 0 30px 10px rgba(0, 0, 0, 0.15);
+}
+
+.pricing-plan .pricing-header .pricing-save {
+    color: #ffffff;
+    padding: 0.8rem 0;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.pricing-plan .pricing-header.secondary {
+    background: linear-gradient(24deg, #605349 5.94%, rgba(96, 83, 73, 0.00) 100%);
+}
+
+.pricing-plan .pricing-header.red {
+    background: linear-gradient(10deg, #858990 52.71%, #FFF 100%);
+}
+
+.pricing-plan .pricing-features {
+    padding: 0;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.pricing-plan .pricing-features li {
+    padding: 7px 40px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    position: relative;
+    line-height: 100%;
+    color: black;
+    text-align: left;
+}
+
+.pricing-plan .pricing-footer {
+    -webkit-border-radius: 0 0 10px 10px;
+    -moz-border-radius: 0 0 10px 10px;
+    border-radius: 0 0 10px 10px;
+    text-align: center;
+    padding: 1rem 0 2rem 0;
+}
+
+@media (max-width: 767px) {
+    .pricing-plan .pricing-header {
+        text-align: center;
+    }
+    .pricing-plan .pricing-header i {
+        display: block;
+        float: none;
+        margin-bottom: 1.5rem;
+    }
+}
