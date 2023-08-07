@@ -17,7 +17,7 @@
                 </div>
                 <div class="col-7"></div>
                 <div class="col-1 text-right">
-                    <a href="createTipsKerja">
+                    <a href="{{ route('create.tipsKerja')}}">
                         <button class="btn-sm btn-primary border border-0">Buat Post</button>
                     </a>
                 </div>

@@ -13,10 +13,10 @@ class TipsKerjaController extends Controller
      */
     public function index($id)
     {
-        $tipsID = tipsKerja::find($id);
+        $tips = tipsKerja::find($id);
         $title = "Tips Kerja";
         $tips_kerjas = tipsKerja::latest()->paginate(5);
-        return view('admin.tipsKerja.index',compact('tips_kerjas', 'tipsID', 'title'))->with('i', (request()->input('page', 1) - 1) * 5);
+        return view('admin.tipsKerja.index',compact('tips_kerjas', 'tips', 'title'))->with('i', (request()->input('page', 1) - 1) * 5);
     }
 
     /**
@@ -24,7 +24,8 @@ class TipsKerjaController extends Controller
      */
     public function create()
     {
-        return view('admin.tipsKerja.create');
+        $title = "Create Tips Kerja";
+        return view('admin.tipsKerja.create', compact('title'));
     }
 
     /**

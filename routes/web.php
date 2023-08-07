@@ -363,13 +363,18 @@ route::get('/editTipsKerja', function () {
     ]);
 });
 
-route::get('/createTipsKerja', function () {
-    return view('admin/tipsKerja/create',[
-        "title" => "Create Tips Kerja"
-    ]);
-});
+// route::get('/createTipsKerja', function () {
+//     return view('admin/tipsKerja/create',[
+//         "title" => "Create Tips Kerja"
+//     ]);
+// });
 
 Route::get('/adminTipsKerja/{id}', [TipsKerjaController::class, 'index'])->name('admin.tipsKerja');
+
+Route::prefix('tipsKerja-management')->group(function(){
+    Route::get('create', [TipsKerjaController::class, 'create'])->name('create.tipsKerja');
+});
+
 // [Admin] Events
 
 route::get('/event', function () {
