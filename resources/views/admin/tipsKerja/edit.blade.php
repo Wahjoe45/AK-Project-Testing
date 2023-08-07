@@ -6,7 +6,7 @@
     <div class="content-header p-4">
         <div class="container-fluid ">
             <h3>Edit Post</h3>
-            
+
             <!-- Script Judul Tips Kerja -->
             <div class="mb-3">
                 <input class="form-control" id="fullName" type="text" value="{{ old('judulTipsKerja') }}" placeholder="Masukan judul Tips Kerja....">
@@ -25,11 +25,17 @@
 
             <!-- Script Konten Tips Kerja -->
             <div class="mb-3">
-                <input class="form-control" id="fullName" type="text" value="{{ old('contentTipsKerja') }}" placeholder="Masukan konten tips kerja....">
-                @error('contentTipsKerja')
-                <div class="invalid-feedback">{{ $message }}</div>
-                @enderror
-            </div>
+                <textarea class="form-control" rows="3" id="ck-editor"></textarea>
+                <!-- Script Text Area CK-Editor -->
+                <script>
+                    ClassicEditor
+                    .create( document.querySelector( '#ck-editor' ) )
+                    .catch( error => {
+                        console.error( error );
+                    } );
+                </script>
+                <!-- Script Text Area CK-Editor -->
+        </div>
 
             <div class="col-12 text-right">
                 <a href="adminTipsKerja">
