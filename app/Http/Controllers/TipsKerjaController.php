@@ -11,14 +11,12 @@ class TipsKerjaController extends Controller
     /**
      * Display a listing of the resource.
      */
-    public function index()
+    public function index($id)
     {
-        $tips_kerjas = tipsKerja::all();
-
-        return view('admin.tipsKerja.index', [
-            'tipsKerja' => $tips_kerjas,
-            'title' => 'Admin Tips Kerja'
-        ]);
+        $tipsID = tipsKerja::find($id);
+        $title = "Tips Kerja";
+        $tips_kerjas = tipsKerja::latest()->paginate(5);
+        return view('admin.tipsKerja.index',compact('tips_kerjas', 'tipsID', 'title'))->with('i', (request()->input('page', 1) - 1) * 5);
     }
 
     /**

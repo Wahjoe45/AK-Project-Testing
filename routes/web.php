@@ -7,6 +7,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\PelamarController;
 use App\Http\Controllers\RegisController;
+use App\Http\Controllers\TipsKerjaController;
 
 /*
 |--------------------------------------------------------------------------
@@ -350,11 +351,11 @@ route::get('/adminNewPassword', function () {
 
 // [Admin] Tips Kerja
 
-route::get('/adminTipsKerja', function () {
-    return view('admin/tipsKerja/index',[
-        "title" => "Tips Kerja"
-    ]);
-});
+// route::get('/adminTipsKerja', function () {
+//     return view('admin/tipsKerja/index',[
+//         "title" => "Tips Kerja"
+//     ]);
+// });
 
 route::get('/editTipsKerja', function () {
     return view('admin/tipsKerja/edit',[
@@ -368,8 +369,7 @@ route::get('/createTipsKerja', function () {
     ]);
 });
 
-Route::resource('tipsKerja', 'App\Http\Controllers\TipsKerjaController');
-
+Route::get('/adminTipsKerja/{id}', [TipsKerjaController::class, 'index'])->name('admin.tipsKerja');
 // [Admin] Events
 
 route::get('/event', function () {
